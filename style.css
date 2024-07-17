@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    font-family: Inter,sans-serif;
+    margin: 0;
+    background-color: #23252C;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 80%; */
+    /* padding: 0; */
+    margin: 44px auto;
+    max-width: 317px;
+    color: white;
+    background-color: #1A1B21;
+    border-radius: 10px;
+}
+.card-intro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 0.05rem;
+}
+.card-intro > h3 {
+    margin-top: 25px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.card-intro > h4 {
+    color: #F3BF99;
+    font-size: 12.8px;
+    font-weight: 300;
+    margin: 0;
+    padding: 10px;
+}
+.card-intro > h6 {
+    color: #F5F5F5;
+    font-size: 10.24px;
+    font-weight: 300;
+    margin: 0;
+    padding: 10px;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+.btn > button{
+    width: 115px;
+    padding: 9px 13px;
+    margin: 15px 10px;
+    border: none;
+    border-radius: 6px;
+}
+.email-btn {
+    background-color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 500;
+    color: #374151;
+}
+.email-btn > img {
+   padding-right: 9px;
+}
+.linkedin-btn {
+    background-color: #5093E2;
+    font-size: 14px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.linkedin-btn > img {
+   padding-right: 9px;
+}
+.about {
+    max-width: 251px;
+    margin: auto;
+    
+}
+.about > h3 {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+}
+.about > p {
+    padding: 5px;
+    font-size: 10.24px;
+    font-weight: 300;
+    max-width: 245px;
+}
+.interests {
+    max-width: 251px;
+    margin: auto;
+    
+}
+.interests > h3 {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+}
+.interests > p {
+    padding-left: 5px;
+    font-size: 10.24px;
+    font-weight: 300;
+    max-width: 245px;
+    padding-bottom: 20px;
+}
+.social {
+    /* height: ; */
+    background-color: #161619;
+    display: flex;
+    justify-content: center;
+    border-radius: 0 0 10px 10px;
+    gap: 30px;
+}
+.social > img {
+    padding: 20px 0;
+}
